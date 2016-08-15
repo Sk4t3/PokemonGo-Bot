@@ -127,11 +127,11 @@ Default configuration will capture all Pokémon.
 
 You can override the global configuration with Pokémon-specific options, such as:
 
-```"Pidgey": {"catch_above_cp": 0, "catch_above_iv": 0.8", "logic": "and"}``` to only capture Pidgey with a good roll.
+```"Pidgey": {"catch_above_cp": 0, "catch_above_iv": 0.8, "logic": "and"}``` to only capture Pidgey with a good roll.
 
 Additionally, you can specify always_capture and never_capture flags.
 
-For example: ```"Pidgey": {"never_capture": true}``` will stop catching Pidgey entirely.
+For example: ```"Pidgey": {"never_catch": true}``` will stop catching Pidgey entirely.
 
 ## Release Configuration
 
